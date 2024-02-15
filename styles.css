@@ -1,0 +1,122 @@
+body {
+    background-color: #F5E9D2;
+    font-family: "Outfit", sans-serif;
+    color: #6f6f6f;
+    font-size: 16px;
+    margin: 0;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: 'Young Serif', serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #2E2E2E;
+}
+
+h2 {
+    font-family: 'Young Serif', serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #7F5B3F;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #942d48;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+hr {
+    border: 1px solid #e4e4e4;
+    margin: 30px auto 30px auto;
+}
+
+p {
+    line-height: 1.5;
+}
+
+li {
+    padding-left: 10px; 
+    margin-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+tr:not(:last-child) td {
+    border-bottom: 2px solid #e4e4e4;
+}
+
+.primary-body {
+    border-radius: 20px;
+    background-color: white;
+    width: 50%;
+    margin: 100px auto;
+    padding-bottom: 30px;
+}
+
+.secondary-body {
+   width: 90%;
+   margin: auto;
+}
+
+.image {
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.pink {
+    background-color: #FFF6F9;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.bullets {
+    padding-left: 25px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.square {
+    list-style-type: square;
+    padding-left: 25px;
+}
+
+.list {
+    line-height: 1.5;
+    padding-left: 25px;
+}
+
+.brown {
+    color: #7F5B3F;
+    font-weight: 700;
+}
+
+.color-pink::marker {
+    color: #942d48;
+}
+
+.color-brown::marker {
+    color: #7F5B3F;
+}
+
+.color-brown-bold::marker {
+    color: #7F5B3F;
+    font-weight: 700;
+}
